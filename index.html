@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | [Chat app css]</title>
+</head>
+<body>
+  <div class="violet-bg"></div>
+  <div class="pink-bg"></div>
+  <main class="container">
+    <section class="app-screen">
+      <banner class="header">
+        <div class="white-button"></div>
+        <span>&#9001;</span>
+        <img src="images/avatar.jpg" alt="user-image" class="user-image"/>
+        <div class="user">
+          <h2>Samuel Green</h2>
+          <p>Available to Walk</p>
+        </div>
+      </banner>
+      <section class="messages">
+        <p class="sender-text">That sounds great. I’d be happy with that.</p>
+        <p class="sender-text">Could you send over some pictures of your dog, please?</p>
+        <div class="gallery">
+          <img src="images/dog-image-1.jpg" alt="dog-image" class="image"/>
+          <img src="images/dog-image-2.jpg" alt="dog-image" class="image"/>
+          <img src="images/dog-image-3.jpg" alt="dog-image" class="image"/>
+        </div>
+        <p class="receiver-text">Here are a few pictures. She’s a happy girl!</p>
+        <p class="receiver-text">Can you make it?</p>
+        <p class="sender-text">She looks so happy! The time we discussed works. How long shall I take her out for?</p>
+        <label for="30-minute" class="label-text">
+          <input type="radio" id="30-minute" class="option">
+          <span>30 minute walk</span>
+          <h3>&dollar;29</h3>
+        </label>
+        <br>
+        <label for="1-hour" class="label-text">
+          <input type="radio" id="1-hour" class="option">
+          <span>1 hour walk</span>
+          <h3>&dollar;49</h3>
+        </label>
+        <br>
+        <label for="'user-input" class="type-in">
+          <input type="'text" id="user-input" class="typing-area" placeholder="  Type a message…"/>
+        <button class="send">
+          >
+        </button>
+        </label>
+      </section>
+    </section>
+    <div class="desc">
+      <h1 class="title">Simple booking</h1>
+      <p> 
+        Stay in touch with our dog walkers through the chat interface. This makes it easy to 
+        discuss arrangements and make bookings. Once the walk has been completed you can rate 
+        your walker and book again all through the chat.
+      </p>
+    </div>
+</body>
+</html>
